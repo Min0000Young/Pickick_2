@@ -34,6 +34,8 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHo
         if(message.getSentBy().equals(Message.SENT_BY_ME)){
             holder.leftChatView.setVisibility(View.GONE);
 
+
+
         }
 
     }
